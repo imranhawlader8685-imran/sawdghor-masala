@@ -2,9 +2,9 @@ const CACHE_NAME = "swadghor-pwa-v1";
 const APP_SHELL = [
   "./",
   "./manifest.webmanifest",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png",
-  "./icons/icon-512-maskable.png"
+ "./icon-192.png",
+"./icon-512.png",
+"./icon-512-maskable.png"
 ];
 
 self.addEventListener("install", (event) => {
